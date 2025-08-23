@@ -28,9 +28,46 @@
 }
 .part-2{
     align-items: center;
-    gap: 50px;
+    gap: 80px;
+    flex: 1;
 }
 .sister-img{
-    width: 600px;
+    width: 570px;
     height: 900px;
+}
+#experience-badge{
+    margin-left: -40px;
+    margin-top: -70px;
+}
+#experience-year{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#experience{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .part-2{
+        flex-direction: column;
+    }
+    .sister-img{
+        width: 100%;
+    }
+    #experience-badge{
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .part-2{
+        flex-direction: column;
+    }
+    #experience-badge{
+        margin-left: 10px;
+        margin-top: -40px;
+    }
 }
