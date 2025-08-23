@@ -25,24 +25,19 @@
 /* Button Primary */
 .btn-primary{
     background-color: rgba(255, 144, 14, 1);
-    columns: white;
+    color: white;
     padding: 20px 25px;
     font-size: 1.1rem;
     font-family: 600;
     border: none;
     border-radius: 8px;
 }
-
 .display-flex{
     display: flex;
 }
 .navbar{
     justify-content: space-between;
     align-items: center;
-    /* margin-bom: 10px; */
-}
-.ul-links{
-
 }
 .items{
     list-style: none;
@@ -53,7 +48,8 @@
     font-size: 18px;
     font-weight: 500;
 }
-.navbar,.banner{
+.navbar,
+.banner{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -69,7 +65,6 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    /* margin-top: 20px; */
     margin-bottom: 30px;
 }
 .banner-title{
@@ -82,7 +77,8 @@
 }
 /* Responsive media query for small device */
 @media screen and (max-width: 576px){
-    .navbar , .ul-links{
+    .navbar , 
+    .ul-links{
         flex-direction: column;
     }
     .xyz{
